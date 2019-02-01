@@ -85,16 +85,22 @@ This sample included a Python file that can be used as is or you can modify it t
 
 In order for the Python script to work you need RSA keys you can create it with the following command directly on your Raspberry Pi:
 
+´´´
 openssl req -x509 -nodes -newkey rsa:2048 -keyout rsa_private.pem -days 1000000 -out rsa_cert.pem -subj "/CN=unused"
+´´´
 
-And you need the Google certificate you can get with the following command:
+And you need the Google certificate you can get with the following command.
 
-// Get the root certificate
+Get the root certificate:
+´´´
 wget https://pki.goog/roots.pem
+´´´
 
 Now you are ready to run the script with the following command:
 
+´´´
 sudo python3 GoogleIoT.py --registry_id=SIGNL4 --cloud_region=europe-west1 --project_id=fair-geography-228811 --device_id=MyRaspberryPi --algorithm=RS256 --private_key_file=./rsa_private.pem --ca_certs=./root.pem --num_messages=4
+´´´
 
 This will send the MQTT messages to the Google IoT Cloud.
 
