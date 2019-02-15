@@ -2,7 +2,7 @@
  
 ## Why SIGNL4
  
-Google IoT Core provides a scalable, rapid solution development platform, made up of tightly integrated components that can be customized to help you solve your business challenges. Whether you are collecting data from a Raspberry Pi or industrial machines, the platformcan help you manage your IoT devices in real time. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your mobile team in the field or on the shop floor.
+Google IoT Core provides a scalable, rapid solution development platform, made up of tightly integrated components that can be customized to help you solve your business challenges. Whether you are collecting data from a Raspberry Pi or industrial machines, the platform can help you manage your IoT devices in real time. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your mobile team in the field or on the shop floor.
  
 ![SIGNL4 Alert](google-iot-signl4.png)
 
