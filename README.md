@@ -41,7 +41,7 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 
 Cloud IoT Core is a fully managed service that allows you to easily and securely manage and connect your IoT devices. The integration with SIGNL4 is straightforward. In the following we will show an example on how to send alert notifications using SIGNL4 in case of MQTT events coming from devices in the field.
 
-Prerequisites
+### Prerequisites
 A SIGNL4 (https://www.signl4.com) account
 Access to the Google Cloud Platform (https://console.cloud.google.com)
 A Raspberry Pi device (optional)
